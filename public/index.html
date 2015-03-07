@@ -31,22 +31,13 @@ Click here to watch our overview video.<br>
   </thead>
   <tbody>
     <tr ng-repeat="user in users">
-      <td>
-        <button class="btn" ng-click="editUser(user.$id)">
-          <span class="glyphicon glyphicon-pencil"></span>  Edit
-        </button>
-      </td>
       <td>{{ user.fName }}</td>
       <td>{{ user.lName }}</td>
       <td>{{ user.feedback }}</td>
       <td>
 
       </td>
-      <td>
-        <button class="btn" ng-click="deleteUser($index)">
-          <span class="glyphicon glyphicon-pencil"></span>  Delete
-        </button>
-      </td>
+
     </tr>
   </tbody>
 </table>
